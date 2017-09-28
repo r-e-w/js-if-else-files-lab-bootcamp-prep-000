@@ -5,7 +5,7 @@ const name = index.name;
 if (index.name === "Susan") {
     console.log("The name is correct")
 } else {
-    console.log("Expected: Susan, Received: " + name)
+    console.log("Expected: Susan, Received: " + index.name)
 }
 
 
