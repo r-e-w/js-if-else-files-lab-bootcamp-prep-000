@@ -1,11 +1,11 @@
 var index = require("./index.js")
 
-console.log(index.name)
-
+const name = index.name
+console.log(name);
 if (index.name === "Susan") {
     console.log("The name is correct")
 } else {
-    console.log("Expected: Susan, Received: ")
+    console.log("Expected: Susan, Received: " + name)
 }
 
 
